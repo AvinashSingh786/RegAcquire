@@ -1,9 +1,5 @@
-<table border="0">
-  <tr >
-    <td><img src="https://raw.githubusercontent.com/AvinashSingh786/RegAcquire/master/icon.ico" height="20" width="20" /></td>
-    <td><h1>RegAcquire</h1></td>
-  </tr>
-</table>
+<img src="https://raw.githubusercontent.com/AvinashSingh786/RegAcquire/master/icon.ico" height="50" width="50"/><h1>RegAcquire</h1>
+  
  
 ## Windows Registry Acquisition Tool
 This tool was designed for research in the field for Digital Forensics.
