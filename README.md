@@ -2,7 +2,9 @@
   
  
 ## Windows Registry Acquisition Tool
-This tool was designed for research in the field for Digital Forensics.
+This tool was designed for research in the field of Digital Forensics.
+
+This Registry dumps acquired from this tool is used in the analysis program called [RegSmart](https://github.com/AvinashSingh786/RegSmart)
 
 More information about this tool is available at
 		https://avinashsingh786.github.io/RegSmart/#regacquire
