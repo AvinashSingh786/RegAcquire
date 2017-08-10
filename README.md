@@ -1,4 +1,9 @@
-![alt text](https://raw.githubusercontent.com/AvinashSingh786/RegAcquire/master/icon.ico)# RegAcquire
+<table>
+  <tr >
+    <td><img src="https://raw.githubusercontent.com/AvinashSingh786/RegAcquire/master/icon.ico"/></td>
+    <td><h1>RegAcquire</h1></td>
+  </tr>
+</table>
  
 ## Windows Registry Acquisition Tool
 This tool was designed for research in the field for Digital Forensics.
@@ -24,7 +29,7 @@ All you need to do is run the RegAcquire.exe and it will automatically do the ac
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-Wanted
+## Wanted
  
   - Bug reports.
   - Feedback.
