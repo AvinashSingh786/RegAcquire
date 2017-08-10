@@ -1,0 +1,14 @@
+[autorun]
+icon = autorun.ico
+Label = RegAcquire
+;shellexecute = RegAcquire.exe
+open = RegAcquire.exe
+action = Click to run.
+; shell\open\command = RegAcquire.exe
+; shell\explore\command = RegAcquire.exe
+ 
+
+[Content]
+MusicFiles=false
+PictureFiles=false
+VideoFiles=false
