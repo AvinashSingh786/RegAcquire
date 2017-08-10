@@ -1,6 +1,6 @@
-<table>
+<table border="0">
   <tr >
-    <td><img src="https://raw.githubusercontent.com/AvinashSingh786/RegAcquire/master/icon.ico"/></td>
+    <td><img src="https://raw.githubusercontent.com/AvinashSingh786/RegAcquire/master/icon.ico" height="20" width="20" /></td>
     <td><h1>RegAcquire</h1></td>
   </tr>
 </table>
