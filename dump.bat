@@ -201,7 +201,7 @@ echo =^> [INFO] -- Folder for dumps: 'dumps\%folder%'  >> evidence.log
  
 
 echo *Acquiring Hive [HKEY_CLASSES_ROOT]
-reg export HKEY_CLASSES_ROOT "dumps\%folder%\HKEY_CLASSES_ROOT.regacquire" /y
+reg export HKEY_CLASSES_ROOT "dumps\%folder%\HKEY_CLASSES_ROOT.regacquire"  
 IF errorlevel 1 (
 	echo|set /p="%tabln%[%RED%Failed%RESET%] to retrieve HKEY_CLASSES_ROOT"
 	call:log >> evidence.log
@@ -225,7 +225,7 @@ echo =^> [SUCCESS] -- Generated hash for HKEY_CLASSES_ROOT  >> evidence.log
 echo.
 echo.
 echo *Acquiring Hive [HKEY_CURRENT_USER]
-reg export HKEY_CURRENT_USER "dumps\%folder%\HKEY_CURRENT_USER.regacquire" /y
+reg export HKEY_CURRENT_USER "dumps\%folder%\HKEY_CURRENT_USER.regacquire"  
 IF errorlevel 1 ( 
 	echo %tabln%[%RED%Failed%RESET%] to retrieve HKEY_CURRENT_USER
 	call:log >> evidence.log
@@ -249,7 +249,7 @@ echo =^> [SUCCESS] -- Generated hash for HKEY_CURRENT_USER  >> evidence.log
 echo.
 echo.
 echo *Acquiring Hive [HKEY_LOCAL_MACHINE]
-reg export HKEY_LOCAL_MACHINE "dumps\%folder%\HKEY_LOCAL_MACHINE.regacquire" /y
+reg export HKEY_LOCAL_MACHINE "dumps\%folder%\HKEY_LOCAL_MACHINE.regacquire"  
 IF errorlevel 1 (
 	echo %tabln%[%RED%Failed%RESET%] to retrieve HKEY_LOCAL_MACHINE
 	call:log >> evidence.log
@@ -273,7 +273,7 @@ echo =^> [SUCCESS] -- Generated hash for HKEY_LOCAL_MACHINE  >> evidence.log
 echo.
 echo.
 echo *Acquiring Hive [HKEY_USERS]
-reg export HKEY_USERS "dumps\%folder%\HKEY_USERS.regacquire" /y
+reg export HKEY_USERS "dumps\%folder%\HKEY_USERS.regacquire"  
 IF errorlevel 1 ( 
 	echo %tabln%[%RED%Failed%RESET%] to retrieve HKEY_USERS
 	call:log >> evidence.log
@@ -297,7 +297,7 @@ echo =^> [SUCCESS] -- Generated hash for HKEY_USERS  >> evidence.log
 echo.
 echo.
 echo *Acquiring Hive [HKEY_CURRENT_CONFIG]
-reg export HKEY_CURRENT_CONFIG "dumps\%folder%\HKEY_CURRENT_CONFIG.regacquire" /y
+reg export HKEY_CURRENT_CONFIG "dumps\%folder%\HKEY_CURRENT_CONFIG.regacquire"  
 IF errorlevel 1 (
 	echo %tabln%[%RED%Failed%RESET%] to retrieve HKEY_CURRENT_CONFIG
 	call:log >> evidence.log

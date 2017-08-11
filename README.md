@@ -18,6 +18,11 @@ No installation needed
  
 All you need to do is run the RegAcquire.exe and it will automatically do the acquisition with no user interaction required.
 
+## Testing environments
+  - Windows 10
+  - Windows 8.1
+  - Windows 7
+  - Windows XP
 
 ## Contributing
  
