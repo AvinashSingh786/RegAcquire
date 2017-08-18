@@ -373,7 +373,7 @@ echo.
 cd "dumps\%folder%"
 xcopy /y * ..
  
-REM icacls hash.hash /inheritance:r /grant everyone:RX
+icacls hash.hash /inheritance:r /grant everyone:RX
 cd ..\..\.. 
 call:log >> evidence.log
 echo =^> [SUCCESS] -- Created forensic sound copy  >> evidence.log
